@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ESTUDOS GIT/GITHUB</title>
+</head>
+<body>
+    <main>
+        <h1>Estudos Git & Github</h1>
+        <h2 class="title">Dicas de comandos essenciais para trabalhar com terminal</h2>
+
+            <div id="container">
+                <div class="box01" >
+                    <div class="box02" >
+                        <div  class="box-front">
+                            <h3>Comandos Iniciais</h3>
+                        </div>
+                        <div class="box-back">
+                            <ul>
+                                <li class="list"><b>Criar uma pasta</b></li>
+                                    <li>➔ mkdir nome_da_pasta</li>
+                                <li class="list"><b>Entrar na pasta</b></li>
+                                    <li>➔ cd nome_da_pasta</li>
+                                <li class="list"><b>Sair da pasta</b></li>
+                                    <li>➔ cd ..</li>
+                                <li class="list"><b>Exibir o que tem dentro da pasta</b></li>
+                                    <li>➔ ls</li>
+                                <li class="list"><b>Excluir arquivo ou pasta</b></li>
+                                    <li>➔ rm nome_do_arquivo</li>
+                                <li class="list"><b>Excluir arquivo ou pasta de forma recursiva</b>:</li>
+                                    <li>➔ rm -r nome</li>
+                                <li class="list"><b>Excluir arquivo ou pasta de forma recursiva e forçar ação</b>:</li>
+                                    <li>➔ rm -rf nome </li>
+                                <li class="list"><b>Limpar tela</b></li>
+                                    <li>➔ crtl + l ou clear</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                    <div class="box01">
+                        <div class="box02">
+                            <div class="box-front">
+                                <h3>Comandos para Git <br> Trabalhando com Branches</h3>
+                            </div>
+                            <div class="box-back">
+                                <ul>
+                                    <li class="list"><b>Listar branches já foram fundidos(merged) com a master/main</b></li>
+                                        <li>➔ git branch --merged</li>
+                                    <li class="list"><b>Listar branches que não foram fundidos(merged) com a master</b></li>
+                                        <li>➔ git branch --no-merged</li>
+                                    <li class="list"><b>Puxando arquivos de uma branch já existente</b></li>
+                                        <li>➔ git pull origin nomeBranch</li>
+                                    <li class="list"><b>Criando um branch remoto com o mesmo nome</b></li>
+                                        <li>➔ git push origin novaBranch_nome</li>
+                                    <li class="list"><b>Quando você tem problemas com merge e deseja desfazer o merge</b></li>
+                                        <li>➔ git merge --abort ou git reset --merge</li>
+                                    <li class="list">A<b>lterando mensagens do commit</b></li>
+                                        <li>➔ git commit --amend -m "Minha nova mensagem"</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+    </main>
+
+
+</body>
+</html>
